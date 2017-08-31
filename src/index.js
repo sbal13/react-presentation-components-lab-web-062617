@@ -7,7 +7,7 @@ import SimplerComponent from './components/SimplerComponent';
 ReactDOM.render(
   <div>
     <SimpleComponent />
-    <SimplerComponent handleClick={undefined} />
+    <SimplerComponent handleClick={()=> alert("I told you, I'm just happy!"))} />
   </div>,
   document.getElementById('root')
 );
